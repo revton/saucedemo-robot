@@ -12,7 +12,24 @@ Como linguagem de programação iremos usar Python na versão 3.12.
 
 Para gerenciar as dependências do projeto iremos usar Poetry.
 
-### Formatadores
+### Ferramentas
+
+#### Git
+
+Para ajuda a padronizar mensagens de commit para no projeto.
+Podendo gerar versões, changelog e até mesmo publicar para o pip.
+
+Inicializar as configurações no projeto
+
+```bash
+cz init
+```
+
+Fazer commits
+
+```bash
+cz commit
+```
 
 #### Markdown
 
