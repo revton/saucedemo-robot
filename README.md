@@ -17,6 +17,7 @@ Para gerenciar as dependências do projeto iremos usar Poetry.
 #### Git
 
 Para ajuda a padronizar mensagens de commit para no projeto.
+Usaremos o [commitizen](https://github.com/commitizen-tools/commitizen).
 Podendo gerar versões, changelog e até mesmo publicar para o pip.
 
 Inicializar as configurações no projeto
@@ -33,13 +34,13 @@ cz commit
 
 #### Markdown
 
-Para formatar usarem o [mdformat](https://github.com/executablebooks/mdformat).
+Para formatar usaremos o [mdformat](https://github.com/executablebooks/mdformat).
 
 ```bash
 mdformat README.md 
 ```
 
-Para verificar se a formatação está correta usarememos [pymarkdown](https://github.com/jackdewinter/pymarkdown).
+Para verificar se a formatação está correta usaremos [pymarkdown](https://github.com/jackdewinter/pymarkdown).
 
 ```bash
 pymarkdown scan README.md 
