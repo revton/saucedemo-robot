@@ -14,6 +14,8 @@ python = "^3.12"
 pymarkdownlnt = "^0.9.17"
 mdformat = "^0.7.17"
 commitizen = "^3.20.0"
+robotframework-robocop = "^5.0.3"
+robotframework-tidy = "^4.11.0"
 
 
 [tool.commitizen]

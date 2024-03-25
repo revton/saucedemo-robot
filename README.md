@@ -14,6 +14,22 @@ Para gerenciar as dependências do projeto iremos usar Poetry.
 
 ### Ferramentas
 
+#### Análise estática
+
+Para análise estática dos códigos `.robot`, usaremos [Robocop](https://github.com/MarketSquare/robotframework-robocop).
+
+```bash
+robocop <diretório ou arquivo>
+```
+
+#### Formatação
+
+Para formatação automática dos script `.robot`, usaremos [Robotidy](https://github.com/MarketSquare/robotframework-tidy).
+
+```bash
+robotidy <diretório ou arquivo>
+```
+
 #### Git
 
 Para ajuda a padronizar mensagens de commit para no projeto.
